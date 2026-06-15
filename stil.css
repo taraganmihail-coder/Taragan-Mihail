@@ -185,7 +185,7 @@ ul { list-style: none; }
   justify-content: center;
   text-align: center;
   overflow: hidden;
-  background-image: url('Imagini/p1.png');
+  background-image: url('imagini/p1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -580,7 +580,7 @@ ul { list-style: none; }
   justify-content: center;
   text-align: center;
   overflow: hidden;
-  background-image: url('Imagini/Rectangle 1.png'); 
+  background-image: url('imagini/Rectangle 1.png'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -748,7 +748,7 @@ ul { list-style: none; }
 .hero-medici {
   position: relative;
   min-height: 600px;
-  background-image: url('Imagini/p2.jpg');
+  background-image: url('imagini/p2.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -934,7 +934,7 @@ ul { list-style: none; }
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-image: url('Imagini/p1.png');
+  background-image: url('imagini/p1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

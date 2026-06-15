@@ -43,63 +43,68 @@
  
   <div class="programare-page">
     <div class="programare-grid">
+ 
+      <!-- FORMULAR -->
       <form class="programare-form-box" action="https://api.sheetmonkey.io/form/mBzk4YzR1ggqRYuXbwib9p" method="post">
         <h2>Detalii Programare</h2>
  
+        <!-- Camp ascuns — data si ora trimiterii automata -->
+        <input type="hidden" name="Data Trimiterii" value="now()" />
+ 
         <div class="form-group">
           <label for="nume">Numele Proprietarului</label>
-          <input type="text" id="nume" name="nume" placeholder="ex: Ion Popescu" required />
+          <input type="text" id="nume" name="Nume Proprietar" placeholder="ex: Ion Popescu" required />
         </div>
  
         <div class="form-group">
           <label for="telefon">Număr de Telefon</label>
-          <input type="tel" id="telefon" name="telefon" placeholder="+373 XXX XXXXX" required />
+          <input type="tel" id="telefon" name="Telefon" placeholder="+373 XXX XXXXX" required />
         </div>
  
         <div class="form-group">
           <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="email@exemplu.md" required />
+          <input type="email" id="email" name="Email" placeholder="email@exemplu.md" required />
         </div>
  
         <div class="form-row">
           <div class="form-group">
             <label for="animal">Numele Animalului</label>
-            <input type="text" id="animal" name="animal" placeholder="ex: Max" required />
+            <input type="text" id="animal" name="Nume Animal" placeholder="ex: Max" required />
           </div>
           <div class="form-group">
             <label for="specia">Specia</label>
-            <select id="specia" name="specia" required>
+            <select id="specia" name="Specia" required>
               <option value="">Selectează...</option>
-              <option value="caine">Câine</option>
-              <option value="pisica">Pisică</option>
-              <option value="iepure">Iepure</option>
-              <option value="altele">Altele</option>
+              <option value="Câine">Câine</option>
+              <option value="Pisică">Pisică</option>
+              <option value="Iepure">Iepure</option>
+              <option value="Altele">Altele</option>
             </select>
           </div>
         </div>
  
         <div class="form-group">
           <label for="serviciu">Serviciu Dorit</label>
-          <select id="serviciu" name="serviciu" required>
+          <select id="serviciu" name="Serviciu" required>
             <option value="">Selectează serviciul...</option>
-            <option value="consultatie">Consultație generală</option>
-            <option value="vaccinare">Vaccinare</option>
-            <option value="chirurgie">Chirurgie</option>
-            <option value="analize">Analize laborator</option>
-            <option value="ecografie">Ecografie</option>
-            <option value="dermatologie">Dermatologie</option>
-            <option value="urgenta">Urgență</option>
+            <option value="Consultație generală">Consultație generală</option>
+            <option value="Vaccinare">Vaccinare</option>
+            <option value="Chirurgie">Chirurgie</option>
+            <option value="Analize laborator">Analize laborator</option>
+            <option value="Ecografie">Ecografie</option>
+            <option value="Dermatologie">Dermatologie</option>
+            <option value="Urgență">Urgență</option>
           </select>
         </div>
  
         <div class="form-row">
           <div class="form-group">
             <label for="data">Data Preferată</label>
-            <input type="date" id="data" name="data" required />
+            <input type="date" id="data" name="Data Preferata" required />
           </div>
           <div class="form-group">
             <label for="ora">Ora Preferată</label>
-            <select id="ora" name="ora" required>
+            <select id="ora" name="Ora Preferata" required>
               <option value="08:00">08:00</option>
               <option value="09:00">09:00</option>
               <option value="10:00">10:00</option>
@@ -117,7 +122,7 @@
  
         <div class="form-group">
           <label for="descriere">Descrierea Problemei (opțional)</label>
-          <textarea id="descriere" name="descriere" placeholder="Descrieți pe scurt motivul vizitei..."></textarea>
+          <textarea id="descriere" name="Descriere" placeholder="Descrieți pe scurt motivul vizitei..."></textarea>
         </div>
  
         <button type="submit" class="btn-submit">Trimite Programarea</button>
